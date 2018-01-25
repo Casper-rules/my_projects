@@ -3,9 +3,10 @@
 #include<stdio.h>
 void main()
 {
-int n,i,j,k,a[20];
+int n,i,j,k;
 printf("number of entries : ");
 scanf("%d",&n);//let n=3
+int a[n];//create an array of size n
 //taking inputs
 printf("Enter values : \n");
 for(i=0;i<n;i++)
