@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#0000FF"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="91dp"
+        android:background="#2a2980"
+        android:text="@string/go_to_feeds"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:contentDescription="@string/profile_pic"
+        app:srcCompat="@drawable/propic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="93dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="199dp"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="171dp"
+        android:layout_height="31dp"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="229dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-171dp"
+        android:layout_marginTop="75dp"
+        android:layout_toStartOf="@+id/name"
+        android:text="@string/displayname" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="203dp"
+        android:text="@string/age" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="177dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_marginEnd="0dp"
+        android:text="@string/age" />
+
+    <Button
+        android:id="@+id/editProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:background="#2a2980"
+        android:text="@string/edit_profile"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</RelativeLayout>

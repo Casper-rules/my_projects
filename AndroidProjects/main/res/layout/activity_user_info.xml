@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="243dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:layout_toStartOf="@+id/propic"
+        android:text="@string/profile_pic_click_here"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/propic"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="61dp"
+        app:srcCompat="@drawable/propic" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:ems="10"
+        android:hint="@string/enter_full_name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/dispName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="194dp"
+        android:ems="10"
+        android:hint="@string/disp_name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="121dp"
+        android:ems="10"
+        android:hint="@string/age4"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp"
+        android:background="#2a2980"
+        android:text="@string/submit_details"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</RelativeLayout>
