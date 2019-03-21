@@ -9,6 +9,18 @@ Hence the system needs to train over a fairly large number of images to make a s
 The easiest way to install an acceptable amount of open cv to your system along with numpy is to simply type the following command to your linux terminal:
 
 
-```~$sudo apt-get install python-opencv```
+```$sudo apt-get install python-opencv```
+
+###### The proper way to do it:
+installing opencv properly needs more than a few lines of commands and hence to install opencv properly [check this link out](https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html)
+
+#### install python:
+Although linux comes with pre installed python2 as well as python3 . In case it isn't . Run following commands:
+
+```$sudo apt-get install python```
+
+for python3
+
+```$sudo apt-get install python3```
 
 
