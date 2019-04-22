@@ -19,7 +19,7 @@ The web page designed in HTML, CSS and hosted on python flask. Was created for t
 The app will be created to receive the current and potential values the phone and also allowed the user to change the values. The app had almost all facilitiees of the web app except for the live feed.
 
 #### The Graph:
-Currently the graph is plot on a seperate window currently using matplotlib is later to put in the web page itself hopefully using python (fingers crossed :p).The graph takes the values form the database and stores the values of the features in seperate queues and plots the features against time(again stored in a queue and taken from the system using the datetime library in python).
+Currently the graph is plot on a seperate window currently using matplotlib is later to put in the web page itself hopefully using python (fingers crossed ::p:).The graph takes the values form the database and stores the values of the features in seperate queues and plots the features against time(again stored in a queue and taken from the system using the datetime library in python).
 #### The Live feed : 
 As mentioned earlier, the feed is provided using pi cam server which can also be achieved by other servers and camras. one alternative being the motion server.
 
