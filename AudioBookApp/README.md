@@ -3,4 +3,6 @@ The app is designed to allow user to choose a pdf file from the system and reads
 following is the detailed description of the libraries used.
 ## PyPDF2:
 PyPDF2 is an awesome pdf handeling library for python. We can use pip to install the liberary
-``` pip install PyPDF2```
+``` 
+pip install PyPDF2
+```
