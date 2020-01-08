@@ -25,4 +25,4 @@ gTTS is a module and command line utility to save spoken text to mp3. It uses th
 ```
 pip install gTTS
 ```
-We set text to be converted to speech and the language we want it in and let it create the audio object. We then save the audio into an mp3 file. We ask the user to enter the name for the audio file.
+We set text to be converted to speech and the language we want it in and let it create the audio object. We then save the audio into an mp3 file. We ask the user to enter the name for the audio file. Needs net btw.. :)
